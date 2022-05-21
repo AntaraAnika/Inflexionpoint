@@ -57,7 +57,6 @@ a {
    padding: 0;
 
 }
-
 .main-section .img-nd-description .middle-section div{
     padding: 2rem 2rem 1rem 2rem;   
     background-color: rgba(23, 23, 23, 0.89);
@@ -93,4 +92,18 @@ footer .footer{
 footer .footer p{
     color: white;
     margin: 0;
+}
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px){
+ 
+    /* Office Employee Client */
+    .main-section .img-nd-description .middle-section .OEC{
+        flex-direction: column !important;
+    }
+   
+    .main-section .img-nd-description .middle-section .OEC hr{
+        display: none;
+    }
 }
