@@ -1,0 +1,96 @@
+/* BASE */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+input {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.bg-image{
+    background-image: url(./images/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-attachment: cover;
+}
+
+/* MAIN SECTION */
+.main-section{
+    padding-bottom: 5rem;
+}
+
+/* HEADING */
+.main-section .heading{
+    text-align: center;
+}
+.main-section .heading h2{
+    font-weight: 800;
+    font-size: 36px;
+}
+
+/* IMAGES AND DESCRIPTION  */
+.main-section .img-nd-description{
+    margin-top: 6rem;
+}
+
+/* MIDDLE IMAGE */
+.main-section .img-nd-description .middle-section{
+   background-image: url(./images/meeting.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: cover;
+   padding: 0;
+
+}
+
+.main-section .img-nd-description .middle-section div{
+    padding: 2rem 2rem 1rem 2rem;   
+    background-color: rgba(23, 23, 23, 0.89);
+}
+
+.main-section .img-nd-description .middle-section .OEC{
+    background: transparent;
+}
+
+.main-section .img-nd-description .middle-section .OEC div{
+    background: transparent;
+}
+
+/* SIDE IMAGES */
+.main-section .img-nd-description .image1 img, 
+.main-section .img-nd-description .image3 img{
+    height: 350px;
+}
+
+
+/* FOOTER */
+footer{
+    padding: 1.5rem 1rem;
+    margin-bottom: 0;
+}
+
+footer .footer{
+    background-color: black;
+
+    text-align: center;
+}
+
+footer .footer p{
+    color: white;
+    margin: 0;
+}
