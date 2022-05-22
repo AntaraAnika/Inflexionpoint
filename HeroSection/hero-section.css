@@ -27,7 +27,7 @@ section {
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
-    background-attachment:fixed;
+    background-attachment:cover;
     min-height: 600px;
 }
 
