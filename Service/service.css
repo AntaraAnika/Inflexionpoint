@@ -12,12 +12,12 @@ input {
     font-family: 'Poppins', sans-serif;
 }
 
-body {
+body .bg-img {
     background-image: url(../Service/images/Background2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    max-height: 500px;
+    position: relative;
 }
 
 a {
@@ -110,6 +110,10 @@ a {
 /* Navbar */
 
 /* Main Section */
+.main-section {
+    padding-bottom: 5rem;
+}
+
 /* Heading */
 .main-section .heading {
     color: #17366B;
@@ -141,35 +145,34 @@ a {
 
 .main-section .nav-list div a {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     color: #17366B;
 }
 
 /* NAV LIST */
 
 /* IMAGE AND DESCRIPTION */
-.main-section .img-nd-description{
+.main-section .img-nd-description {
     margin-top: 5rem;
 }
 
-.main-section .img-nd-description h4, h5 {
+.main-section .img-nd-description h4,
+h5 {
     color: #17366B;
 }
 
 /* FOOTER */
-footer{
-    position: relative;
-    padding: 1.5rem 1rem;
+footer {
     background-color: black;
-    margin-top: 8rem;
-    margin-bottom: 0;
+    bottom: 0;
 }
 
-footer .footer{
+footer .footer {
     text-align: center;
+    padding: 1rem;
 }
 
-footer .footer p{
+footer .footer p {
     color: white;
     margin: 0;
 }
