@@ -1,0 +1,152 @@
+/* BASE */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+input {
+    font-family: 'Poppins', sans-serif;
+    color: #ffff;
+}
+
+/* BG IMAGE */
+body .bg-img {
+    background-image: url(../Contact/images/background3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/* BG COLOR */
+body .bg-img .bg-color{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+input {
+    color: #5D5D5D !important;
+}
+
+form label {
+    color: #5D5D5D !important;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* NAVBAR */
+.bg-color .nav-position {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.navbar {
+    position: absolute;
+    background-color: #111111;
+    height: 190%;
+    width: 100%;
+    max-width: 100%;
+    clip-path: circle(0% at 45px 45px);
+    z-index: 2;
+}
+
+
+.nav-icon .line {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.nav-icon .line:nth-child(2) {
+    width: 100%;
+    margin: 7px 0;
+    align-self: flex-start;
+}
+
+.menu {
+    list-style: none;
+    /*margin-left: 39%;*/
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 72%;
+}
+
+.item {
+    margin: 2rem;
+    font-weight: 200;
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transform: translateY(-15px) scale(1);
+    transform-origin: center center;
+    opacity: 0;
+    text-align: center;
+}
+/* Navbar */
+
+
+/* FORM */
+.main-section form .form-floating {
+    z-index: 1 !important;
+}
+
+.main-section form input {
+    border-radius: 0!important;
+}
+
+/* Form Btn */
+.main-section form .form-btn{
+    width: min-content;
+    border:none;
+    outline: none;
+    text-decoration: none;
+    background-color: #D30008;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 0;
+    padding: 10px 30px;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    bottom: 0;
+}
+
+footer .footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+footer .footer p {
+    color: white;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 990px){
+    .main-section .contact .g-map iframe {
+
+        height: auto;
+        width: auto;
+    }
+}
