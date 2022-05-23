@@ -35,7 +35,62 @@ a {
     flex-direction: column;
 }
 
+/* NAVBAR */
+.bg-color .nav-position {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
 
+.navbar {
+    position: absolute;
+    background-color: #111111;
+    height: 190%;
+    width: 100%;
+    max-width: 100%;
+    clip-path: circle(0% at 45px 45px);
+    z-index: 2;
+}
+
+
+.nav-icon .line {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.nav-icon .line:nth-child(2) {
+    width: 100%;
+    margin: 7px 0;
+    align-self: flex-start;
+}
+
+.menu {
+    list-style: none;
+    /*margin-left: 39%;*/
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 72%;
+}
+
+.item {
+    margin: 2rem;
+    font-weight: 200;
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transform: translateY(-15px) scale(1);
+    transform-origin: center center;
+    opacity: 0;
+    text-align: center;
+}
+/* Navbar */
 
 
 /* Main Section */
