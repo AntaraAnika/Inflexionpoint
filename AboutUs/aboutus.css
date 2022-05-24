@@ -90,13 +90,14 @@ a {
 
 /* MAIN SECTION */
 .main-section {
-    padding-bottom: 5rem;
+    padding-bottom: 12rem;
     padding-top: 6rem;
 }
 
 /* HEADING */
 .main-section .heading {
     text-align: center;
+    margin-top: 3rem;
 }
 
 .main-section .heading h2 {
@@ -106,7 +107,7 @@ a {
 
 /* IMAGES AND DESCRIPTION  */
 .main-section .img-nd-description {
-    margin-top: 6rem;
+    margin-top: 8rem;
 
 }
 
@@ -121,6 +122,7 @@ a {
 
 }
 
+/* IMAGE SLIDER */
 .slick-slide {
     height: auto !important;
     max-width: auto !important;
