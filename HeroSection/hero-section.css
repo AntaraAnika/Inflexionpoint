@@ -22,13 +22,19 @@ a {
   color: #ffffff;
 }
 
-section {
+/* BACKGROUND IMAGE */
+body .img-overlay {
   background-image: url(./images/Background.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: cover;
   min-height: 800px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* NAVBAR */
@@ -105,6 +111,10 @@ section {
 
 /* MAIN SECTION */
 
+.img-overlay .main-section {
+  align-items: center;
+}
+
 /* TYPING ANIMATION */
 .main-section .write {
   display: flex;
@@ -138,14 +148,24 @@ section {
 
 /* Responsive */
 @media screen and (max-width: 1080px) {
-  section {
+
+  /* Background Image */
+  body .img-overlay {
     background-size: cover;
   }
 }
 
 @media screen and (max-width: 700px) {
-  section {
+
+  /* Background Image */
+  body .img-overlay {
     background-size: cover;
+  }
+
+  /* NAVBAR */
+  .nav-section-p {
+    right: 2rem !important;
+    top: 1.5rem !important;
   }
 }
 
