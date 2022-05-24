@@ -53,6 +53,7 @@ a {
   width: 100%;
   max-width: 100%;
   clip-path: circle(0% at 45px 45px);
+  right: 0;
 }
 
 .nav-icon .line {
