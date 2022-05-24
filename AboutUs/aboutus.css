@@ -90,7 +90,7 @@ a {
 
 /* MAIN SECTION */
 .main-section {
-    padding-bottom: 12rem;
+    padding-bottom: 18rem;
     padding-top: 6rem;
 }
 
@@ -169,7 +169,9 @@ a {
 /* FOOTER */
 footer {
     background-color: black;
-    bottom: 0;
+    bottom: -111px;
+    position: absolute;
+    width: 100%;
 }
 
 footer .footer {
