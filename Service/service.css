@@ -163,10 +163,12 @@ footer .footer p {
   margin: 0;
 }
 
+
+/* RESPONSIVE */
+
 /* ---------------------------------------- media screen for 1366 x 768 desktop screens ---------------------------------------- */
 
-@media only screen and (device-width: 1366px) and (device-height: 768px) {
-}
+@media only screen and (device-width: 1366px) and (device-height: 768px) {}
 
 /* --------------------------------------------------------------------------- end - media screen for 1366 x 768 desktop screens */
 
@@ -179,3 +181,14 @@ footer .footer p {
 }
 
 /* --------------------------------------------------------------------------- end - media screen for 1366 x 768 desktop screens */
+@media screen and (max-width: 990px) {
+
+  .bg-color .main-section .nav-list div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: max-content;
+    margin: 0.4rem;
+  }
+}
