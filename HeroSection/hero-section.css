@@ -52,7 +52,7 @@ body .img-overlay {
   position: absolute;
   background-color: #111111;
   right: 0;
-  height: 178%;
+  height: 210%;
   width: 100%;
   max-width: 100%;
   clip-path: circle(0% at 45px 45px);
@@ -91,7 +91,7 @@ body .img-overlay {
   transform: translate(-50%, -50%);
   position: absolute;
   left: 50%;
-  top: 72%;
+  top: 63%;
 }
 
 .item {

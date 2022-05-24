@@ -13,7 +13,7 @@ input {
 }
 
 body {
-    background-color: black;
+
     color: #FFFFFF;
 }
 
@@ -24,6 +24,7 @@ a {
 
 .bg-image {
     background-image: url(./AboutUs/images/Background.png);
+    position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: cover;
@@ -42,7 +43,7 @@ a {
 .navbar {
     position: absolute;
     background-color: #111111;
-    height: 190%;
+    height: 110%;
     width: 100%;
     max-width: 100%;
     clip-path: circle(0% at 45px 45px);
@@ -69,7 +70,7 @@ a {
     transform: translate(-50%, -50%);
     position: absolute;
     left: 50%;
-    top: 72%;
+    top: 40%;
 }
 
 .item {
@@ -90,6 +91,7 @@ a {
 /* MAIN SECTION */
 .main-section {
     padding-bottom: 5rem;
+    padding-top: 6rem;
 }
 
 /* HEADING */
@@ -164,13 +166,13 @@ a {
 
 /* FOOTER */
 footer {
+    background-color: black;
     bottom: 0;
 }
 
 footer .footer {
-    background-color: black;
-    padding: 1rem;
     text-align: center;
+    padding: 1rem;
 }
 
 footer .footer p {

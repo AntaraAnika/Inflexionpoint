@@ -23,7 +23,7 @@ body .bg-img {
 }
 
 /* BG COLOR */
-body .bg-img .bg-color{
+body .bg-img .bg-color {
     background-color: rgba(0, 0, 0, 0.8);
     margin: 0;
     width: 100%;
@@ -58,7 +58,7 @@ a {
 .navbar {
     position: absolute;
     background-color: #111111;
-    height: 190%;
+    height: 198%;
     width: 100%;
     max-width: 100%;
     clip-path: circle(0% at 45px 45px);
@@ -85,7 +85,7 @@ a {
     transform: translate(-50%, -50%);
     position: absolute;
     left: 50%;
-    top: 72%;
+    top: 65%;
 }
 
 .item {
@@ -100,6 +100,7 @@ a {
     opacity: 0;
     text-align: center;
 }
+
 /* Navbar */
 
 
@@ -109,13 +110,13 @@ a {
 }
 
 .main-section form input {
-    border-radius: 0!important;
+    border-radius: 0 !important;
 }
 
 /* Form Btn */
-.main-section form .form-btn{
+.main-section form .form-btn {
     width: min-content;
-    border:none;
+    border: none;
     outline: none;
     text-decoration: none;
     background-color: #D30008;
@@ -143,7 +144,7 @@ footer .footer p {
 }
 
 
-@media screen and (max-width: 990px){
+@media screen and (max-width: 990px) {
     .main-section .contact .g-map iframe {
 
         height: auto;
