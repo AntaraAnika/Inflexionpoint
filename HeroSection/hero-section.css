@@ -1,153 +1,160 @@
 /* BASE */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body,
 input {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    background-color: black;
-    color: #FFFFFF;
+  background-color: black;
+  color: #ffffff;
 }
 
 a {
-    text-decoration: none;
-    color: #FFFFFF;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 section {
-    background-image: url(./images/Background.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-attachment: cover;
-    min-height: 600px;
+  background-image: url(./images/Background.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: cover;
+  min-height: 800px;
 }
 
 /* NAVBAR */
 .nav-position {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding: 1rem;
-    margin-top: 1rem;
-    margin-left: 3rem;
-    margin-bottom: 2rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
 }
 
 .navbar {
-    position: absolute;
-    background-color: #111111;
-    right: 0;
-    height: 178%;
-    width: 100%;
-    max-width: 100%;
-    clip-path: circle(0% at 45px 45px);
+  position: absolute;
+  background-color: #111111;
+  right: 0;
+  height: 178%;
+  width: 100%;
+  max-width: 100%;
+  clip-path: circle(0% at 45px 45px);
 }
 
 .nav-icon {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 45px;
-    left: 45px;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 45px;
+  left: 45px;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .nav-icon .line {
-    height: 3px;
-    width: 100%;
-    background-color: black;
-    border-radius: 5px;
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 5px;
 }
 
 .nav-icon .line:nth-child(2) {
-    width: 100%;
-    margin: 7px 0;
-    align-self: flex-start;
+  width: 100%;
+  margin: 7px 0;
+  align-self: flex-start;
 }
 
 .menu {
-    list-style: none;
-    /*margin-left: 39%;*/
-    transform: translate(-50%, -50%);
-    position: absolute;
-    left: 50%;
-    top: 72%;
+  list-style: none;
+  /*margin-left: 39%;*/
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 72%;
 }
 
 .item {
-    margin: 2rem;
-    /*font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;*/
-    /* font-family: "Nexa Bold"; */
-    font-weight: 200;
-    font-size: 1rem;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transform: translateY(-15px) scale(1);
-    transform-origin: center center;
-    opacity: 0;
-    text-align: center;
+  margin: 2rem;
+  /*font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;*/
+  /* font-family: "Nexa Bold"; */
+  font-weight: 200;
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transform: translateY(-15px) scale(1);
+  transform-origin: center center;
+  opacity: 0;
+  text-align: center;
 }
-
 
 /* MAIN SECTION */
 
 /* TYPING ANIMATION */
 .main-section .write {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .main-section .write .typing {
-    /* position: relative; */
-    margin-left: 10px;
-
+  /* position: relative; */
+  margin-left: 10px;
 }
 
 .main-section .write .typing ::after {
-    content: "";
-    position: absolute;
-    right: -5px;
-    width: 1px;
-    height: 5%;
-    border-radius: 2px solid white;
-    animation: blink 0.5s infinite ease;
+  content: "";
+  position: absolute;
+  right: -5px;
+  width: 1px;
+  height: 5%;
+  border-radius: 2px solid white;
+  animation: blink 0.5s infinite ease;
 }
 
 @keyframes blink {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
-
 
 /* Responsive */
 @media screen and (max-width: 1080px) {
-    section {
-        background-size: cover;
-    }
+  section {
+    background-size: cover;
+  }
 }
 
 @media screen and (max-width: 700px) {
-    section {
-        background-size: cover;
-    }
+  section {
+    background-size: cover;
+  }
 }
+
+/* ---------------------------------------- media screen for 1366 x 768 desktop screens ---------------------------------------- */
+
+@media only screen and (device-width: 1366px) and (device-height: 768px) {
+  section {
+    min-height: 600px;
+  }
+}
+
+/* --------------------------------------------------------------------------- end - media screen for 1366 x 768 desktop screens */
