@@ -13,7 +13,7 @@ input {
 }
 
 body {
-    background-color: black;
+
     color: #FFFFFF;
 }
 
@@ -24,6 +24,7 @@ a {
 
 .bg-image {
     background-image: url(./images/Background.png);
+    position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: cover;
@@ -42,7 +43,7 @@ a {
 .navbar {
     position: absolute;
     background-color: #111111;
-    height: 190%;
+    height: 110%;
     width: 100%;
     max-width: 100%;
     clip-path: circle(0% at 45px 45px);
@@ -69,7 +70,7 @@ a {
     transform: translate(-50%, -50%);
     position: absolute;
     left: 50%;
-    top: 72%;
+    top: 40%;
 }
 
 .item {
@@ -90,6 +91,7 @@ a {
 /* MAIN SECTION */
 .main-section {
     padding-bottom: 5rem;
+    padding-top: 6rem;
 }
 
 /* HEADING */
@@ -110,20 +112,26 @@ a {
 
 /* MIDDLE IMAGE */
 .main-section .img-nd-description .middle-section {
-    /* background-image: url(./images/meeting.png); */
+    background-image: url(./images/meeting.png);
+    width: 200px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: cover;
+    background-attachment: fixed;
     padding: 0;
 
 }
 
-.main-section .img-nd-description .caption-customize {
+.slick-slide {
+    height: auto !important;
+    max-width: auto !important;
+}
+
+/* .main-section .img-nd-description .caption-customize {
     right: 0 !important;
     left: 0 !important;
     bottom: 0 !important;
     padding-bottom: 0 !important;
-}
+} */
 
 .main-section .img-nd-description .carousel-item img {
     width: 100% !important;
@@ -131,12 +139,18 @@ a {
 }
 
 .main-section .img-nd-description .middle-section div {
-    padding: 2rem 2rem 1rem 2rem;
+    /* padding: 2rem 2rem 1rem 2rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
     background-color: rgba(23, 23, 23, 0.89);
 }
 
 .main-section .img-nd-description .middle-section .OEC {
     background: transparent;
+    padding: 0;
 }
 
 .main-section .img-nd-description .middle-section .OEC div {
@@ -152,13 +166,13 @@ a {
 
 /* FOOTER */
 footer {
+    background-color: black;
     bottom: 0;
 }
 
 footer .footer {
-    background-color: black;
-    padding: 1rem;
     text-align: center;
+    padding: 1rem;
 }
 
 footer .footer p {
