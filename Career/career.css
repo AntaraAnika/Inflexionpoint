@@ -30,7 +30,7 @@ a {
 .navbar {
     position: absolute;
     background-color: #111111;
-    height: 190%;
+    height: 131%;
     width: 100%;
     max-width: 100%;
     clip-path: circle(0% at 45px 45px);
@@ -56,7 +56,7 @@ a {
     /*margin-left: 39%;*/
     transform: translate(-50%, -50%);
     position: absolute;
-    left: 44%;
+    left: 50%;
     top: 26%;
 }
 
@@ -72,6 +72,7 @@ a {
     opacity: 0;
     text-align: center;
 }
+
 /* Navbar */
 
 /* HEADER SECTION */
@@ -85,13 +86,15 @@ a {
 
 .header-section .header-img .header-content {
     background-color: rgba(23, 23, 23, 0.9);
-    padding: 4rem 0rem;
+}
 
+.header-section .header-img .header-content .join-us {
+    padding: 5rem 0rem;
 }
 
 /* heder title & text */
-.header-section .header-content div {
-    margin: 2rem 4rem;
+.header-section .header-content .join-us {
+    margin: 0rem 4rem;
 }
 
 .header-section .header-content div h1 {
@@ -160,6 +163,12 @@ footer .footer p {
 }
 
 @media screen and (max-width: 700px) {
+
+    /* Navbar */
+    .nav-section-p {
+        top: 1.5rem !important;
+        right: 2rem !important;
+    }
 
     /* Buttons */
     .main-section .offer-list .buttons {
