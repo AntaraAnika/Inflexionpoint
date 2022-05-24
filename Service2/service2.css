@@ -1,5 +1,5 @@
 /* BASE */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 * {
     margin: 0;
@@ -9,7 +9,7 @@
 
 body,
 input {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 body .bg-img {
@@ -35,7 +35,6 @@ a {
     flex-direction: column;
 }
 
-
 /* NAVBAR */
 .bg-color .nav-position {
     display: flex;
@@ -54,8 +53,8 @@ a {
     width: 100%;
     max-width: 100%;
     clip-path: circle(0% at 45px 45px);
+    right: 0;
 }
-
 
 .nav-icon .line {
     height: 3px;
@@ -101,7 +100,7 @@ a {
 
 /* Heading */
 .main-section .heading {
-    color: #17366B;
+    color: #17366b;
     text-align: center;
     margin-top: 50px;
 }
@@ -125,13 +124,13 @@ a {
 .bg-color .main-section .nav-list div {
     padding: 0.8rem 0.4rem;
     margin: 0 0.4rem;
-    background-color: #D9DAEB;
+    background-color: #d9daeb;
 }
 
 .main-section .nav-list div a {
     font-weight: 600;
     font-size: 20px;
-    color: #17366B;
+    color: #17366b;
 }
 
 /* NAV LIST */
@@ -143,16 +142,15 @@ a {
 
 .main-section .img-nd-description h4,
 h5 {
-    color: #17366B;
+    color: #17366b;
 }
-
-
-
 
 /* FOOTER */
 footer {
     background-color: black;
     bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
 footer .footer {
@@ -163,4 +161,34 @@ footer .footer {
 footer .footer p {
     color: white;
     margin: 0;
+}
+
+
+/* RESPONSIVE */
+
+/* ---------------------------------------- media screen for 1366 x 768 desktop screens ---------------------------------------- */
+
+@media only screen and (device-width: 1366px) and (device-height: 768px) {}
+
+/* --------------------------------------------------------------------------- end - media screen for 1366 x 768 desktop screens */
+
+/* ---------------------------------------- media screen for 1366 x 768 desktop screens ---------------------------------------- */
+
+@media only screen and (device-width: 1920px) and (device-height: 1080px) {
+    body .bg-img {
+        height: 1000px;
+    }
+}
+
+/* --------------------------------------------------------------------------- end - media screen for 1366 x 768 desktop screens */
+@media screen and (max-width: 990px) {
+
+    .bg-color .main-section .nav-list div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: max-content;
+        margin: 0.4rem;
+    }
 }
