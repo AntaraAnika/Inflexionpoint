@@ -149,7 +149,7 @@ h5 {
 footer {
     background-color: black;
     bottom: 0;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
 }
 
@@ -190,6 +190,11 @@ footer .footer p {
         align-items: center;
         max-width: max-content;
         margin: 0.4rem;
+    }
+
+    .main-section .img-nd-description {
+        flex-direction: column;
+        gap: 2rem;
     }
 
     /* NAVBAR MENU */

@@ -192,6 +192,11 @@ footer .footer p {
     margin: 0.4rem;
   }
 
+  .main-section .img-nd-description {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
   /* NAVBAR MENU */
   .menu {
     top: 62%;

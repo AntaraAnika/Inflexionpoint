@@ -18,7 +18,7 @@ body .bg-img {
     background-image: url(../Contact/images/background3.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: cover;
     position: relative;
 }
 
