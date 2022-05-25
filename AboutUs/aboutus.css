@@ -28,6 +28,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: cover;
+    height: max-content;
 }
 
 /* NAVBAR */
@@ -90,7 +91,7 @@ a {
 
 /* MAIN SECTION */
 .main-section {
-    padding-bottom: 18rem;
+    padding-bottom: 8rem;
     padding-top: 6rem;
 }
 
@@ -168,13 +169,14 @@ a {
 
 /* FOOTER */
 footer {
-    background-color: black;
     bottom: -111px;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
 }
 
 footer .footer {
+    background-color: black;
+
     text-align: center;
     padding: 1rem;
 }
