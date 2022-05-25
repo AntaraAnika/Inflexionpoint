@@ -204,4 +204,9 @@ footer .footer p {
         padding-bottom: 0;
     }
 
+    /* NAVBAR MENU */
+    .menu {
+        top: 20%;
+    }
+
 }

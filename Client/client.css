@@ -90,6 +90,7 @@ a {
     opacity: 0;
     text-align: center;
 }
+
 /* Navbar */
 
 
@@ -162,5 +163,13 @@ footer .footer p {
     .main-section .img-nd-description {
         flex-direction: column !important;
         gap: 2rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    /* NAVBAR MENU */
+    .menu {
+        top: 59%;
     }
 }

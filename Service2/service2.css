@@ -191,4 +191,9 @@ footer .footer p {
         max-width: max-content;
         margin: 0.4rem;
     }
+
+    /* NAVBAR MENU */
+    .menu {
+        top: 62%;
+    }
 }

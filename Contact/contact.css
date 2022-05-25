@@ -103,6 +103,7 @@ a {
 
 /* Navbar */
 
+/* MAIN SECTION */
 
 /* FORM */
 .main-section form .form-floating {
@@ -149,5 +150,13 @@ footer .footer p {
 
         height: auto;
         width: auto;
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    /* NAVBAR MENU */
+    .menu {
+        top: 60%;
     }
 }

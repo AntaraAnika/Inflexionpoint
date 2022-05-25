@@ -170,6 +170,16 @@ footer .footer p {
         right: 2rem !important;
     }
 
+    .navbar {
+        height: 238%;
+    }
+
+    /* NAVBAR MENU */
+    .menu {
+        top: 18%;
+    }
+
+
     /* Buttons */
     .main-section .offer-list .buttons {
         justify-content: center;
