@@ -167,6 +167,10 @@ body .img-overlay {
     right: 2rem !important;
     top: 1.5rem !important;
   }
+
+  .main-section .description div {
+    text-align: center !important;
+  }
 }
 
 /* ---------------------------------------- media screen for 1366 x 768 desktop screens ---------------------------------------- */
