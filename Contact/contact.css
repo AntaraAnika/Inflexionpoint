@@ -11,6 +11,7 @@ body,
 input {
     font-family: 'Poppins', sans-serif;
     color: #ffff;
+
 }
 
 /* BG IMAGE */
@@ -20,6 +21,8 @@ body .bg-img {
     background-size: cover;
     background-attachment: cover;
     position: relative;
+    overflow: hidden;
+
 }
 
 /* BG COLOR */
