@@ -35,7 +35,7 @@ a {
     background-attachment: cover;
     /* height: max-content; */
     overflow: hidden;
-    bottom: 0;
+    bottom: -5px;
 
 }
 
@@ -178,7 +178,7 @@ a {
 
 /* FOOTER */
 footer {
-    bottom: 0px;
+    bottom: -5px;
     position: relative;
     width: 100%;
 }
