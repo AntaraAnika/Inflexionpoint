@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 0.2px solid transparent;
+
 }
 
 body,
@@ -15,6 +17,9 @@ input {
 body {
 
     color: #FFFFFF;
+
+
+
 }
 
 a {
@@ -28,7 +33,10 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: cover;
-    height: max-content;
+    /* height: max-content; */
+    overflow: hidden;
+    bottom: 0;
+
 }
 
 /* NAVBAR */
@@ -93,6 +101,7 @@ a {
 .main-section {
     padding-bottom: 8rem;
     padding-top: 6rem;
+
 }
 
 /* HEADING */
@@ -169,8 +178,8 @@ a {
 
 /* FOOTER */
 footer {
-    bottom: -111px;
-    /* position: absolute; */
+    bottom: 0px;
+    position: relative;
     width: 100%;
 }
 
