@@ -1,11 +1,11 @@
 /* BASE */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700,800&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 0.2px solid transparent;
+    /* border: 0.1px solid red; */
 
 }
 
@@ -79,16 +79,18 @@ a {
     transform: translate(-50%, -50%);
     position: absolute;
     left: 50%;
-    top: 34%;
+    top: 32%;
 }
 
 .item {
-    margin: 0.5rem;
-    font-weight: 200;
-    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    margin: 1rem;
+    font-weight: 100 !important;
+    font-size: 0.9rem;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
+    line-height: 2.5rem;
     transform: translateY(-15px) scale(1);
     transform-origin: center center;
     opacity: 0;
