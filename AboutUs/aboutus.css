@@ -35,7 +35,7 @@ a {
     background-attachment: cover;
     /* height: max-content; */
     overflow: hidden;
-    bottom: -5px;
+    /* bottom: -5px; */
 
 }
 
@@ -52,7 +52,7 @@ a {
 .navbar {
     position: absolute;
     background-color: #111111;
-    height: 110%;
+    height: 99%;
     width: 100%;
     max-width: 100%;
     clip-path: circle(0% at 45px 45px);
@@ -79,7 +79,7 @@ a {
     transform: translate(-50%, -50%);
     position: absolute;
     left: 50%;
-    top: 32%;
+    top: 38%;
 }
 
 .item {
