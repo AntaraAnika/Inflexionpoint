@@ -31,7 +31,7 @@ a {
 .navbar {
     position: absolute;
     background-color: #111111;
-    height: 128%;
+    height: 132%;
     width: 100%;
     max-width: 100%;
     clip-path: circle(0% at 45px 45px);
@@ -167,6 +167,19 @@ footer .footer p {
     color: white;
     margin: 0;
 }
+
+@media screen and (max-width: 2000px) {
+    .navbar {
+        height: 132%;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .navbar {
+        height: 182%;
+    }
+}
+
 
 @media screen and (max-width: 700px) {
 
