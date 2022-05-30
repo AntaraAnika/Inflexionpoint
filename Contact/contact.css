@@ -167,4 +167,8 @@ footer .footer p {
     .menu {
         top: 60%;
     }
+
+    .bg-color .nav-position {
+        width: 92%;
+    }
 }
