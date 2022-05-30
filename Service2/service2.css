@@ -91,6 +91,10 @@ a {
     text-align: center;
 }
 
+.item:hover {
+    color: #ac0000 !important;
+}
+
 /* Navbar */
 
 /* Main Section */
