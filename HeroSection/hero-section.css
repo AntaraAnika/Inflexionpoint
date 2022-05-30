@@ -110,6 +110,10 @@ body .img-overlay {
   text-align: center;
 }
 
+.item:hover {
+  color: #D30008 !important;
+}
+
 /* MAIN SECTION */
 
 .img-overlay .main-section {
