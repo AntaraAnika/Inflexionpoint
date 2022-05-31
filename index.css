@@ -151,6 +151,10 @@ body .img-overlay {
   }
 }
 
+.main-section .description div {
+  text-align: justify;
+}
+
 /* Responsive */
 @media screen and (max-width: 1080px) {
 
