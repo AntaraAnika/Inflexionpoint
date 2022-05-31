@@ -1,5 +1,5 @@
 // TYPING
-const texts = ['creativity'];
+const texts = ['Creativity'];
 let count = 0;
 let index = 0;
 let currentText = '';

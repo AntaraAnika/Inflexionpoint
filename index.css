@@ -24,7 +24,7 @@ a {
 
 /* BACKGROUND IMAGE */
 body .img-overlay {
-  background-image: url(./images/Background.png);
+  background-image: url(/giphy.gif);
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
