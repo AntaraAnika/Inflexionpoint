@@ -26,7 +26,7 @@ a {
 }
 
 .bg-image {
-    background-image: url(../testImages/lute-YZNoGvsi5E8-unsplash.jpg);
+    background-image: url(../testImages/shapelined-90siM5kmRbM-unsplash.jpg);
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -128,8 +128,8 @@ nav li {
 .main-section .heading {
     text-align: center;
     margin-top: 0rem;
-    background-color: #11111160;
-    padding: .5rem 0;
+    /* background-color: #11111160;
+    padding: .5rem 0; */
 }
 
 .main-section .heading h2 {
