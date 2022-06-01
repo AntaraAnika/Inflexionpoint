@@ -26,7 +26,7 @@ a {
 }
 
 .bg-image {
-    background-image: url(./images/Background.png);
+    background-image: url(../testImages/lute-YZNoGvsi5E8-unsplash.jpg);
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -36,6 +36,10 @@ a {
     /* bottom: -5px; */
 
 }
+
+/* .bg-image>div {
+    background-color: #11111167;
+} */
 
 /* NAVBAR */
 .bg-color .nav-position {
@@ -80,7 +84,7 @@ a {
     transform: translate(-50%, -50%);
     position: absolute;
     left: 50%;
-    top: 38%;
+    top: 34%;
     border: none !important;
 
 }
@@ -116,14 +120,16 @@ nav li {
 /* MAIN SECTION */
 .main-section {
     padding-bottom: 8rem;
-    padding-top: 6rem;
+    padding-top: 5rem;
 
 }
 
 /* HEADING */
 .main-section .heading {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 0rem;
+    background-color: #11111160;
+    padding: .5rem 0;
 }
 
 .main-section .heading h2 {
@@ -133,7 +139,7 @@ nav li {
 
 /* IMAGES AND DESCRIPTION  */
 .main-section .img-nd-description {
-    margin-top: 8rem;
+    margin-top: 1rem;
 
 }
 
@@ -143,14 +149,17 @@ nav li {
     width: 200px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: cover;
     padding: 0;
+    height: 31rem;
+
+
 
 }
 
 /* IMAGE SLIDER */
 .slick-slide {
-    height: auto !important;
+    height: auto;
     max-width: auto !important;
 }
 
@@ -163,9 +172,9 @@ nav li {
 
 .main-section .img-nd-description .carousel-item img {
     width: 100% !important;
-    height: 30rem;
 }
 
+/* Background color */
 .main-section .img-nd-description .middle-section div {
     /* padding: 2rem 2rem 1rem 2rem; */
     display: flex;
@@ -173,7 +182,7 @@ nav li {
     justify-content: center;
     align-items: center;
     padding: 4rem;
-    background-color: rgba(23, 23, 23, 0.89);
+    background-color: rgba(23, 23, 23, 0.90);
 }
 
 .main-section .img-nd-description .middle-section .OEC {
@@ -229,6 +238,10 @@ footer .footer p {
         left: 0;
         bottom: 0;
         padding-bottom: 0;
+    }
+
+    .main-section .img-nd-description .middle-section {
+        height: auto !important;
     }
 
     /* NAVBAR MENU */

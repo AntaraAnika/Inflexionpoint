@@ -116,6 +116,10 @@ a {
 
 /* MAIN SECTION */
 /* Buttons */
+.main-section .offer-list .buttons {
+    padding-left: 10rem;
+}
+
 .main-section .offer-list .category-btn {
     width: min-content !important;
     background-color: #DADEF0;
@@ -123,8 +127,8 @@ a {
     margin-right: auto;
     border: none;
     outline: none;
-    padding: 10px 40px;
-    font-size: 22px;
+    padding: 10px 30px;
+    font-size: 18px;
     font-weight: 500;
     border-radius: 5px;
     text-decoration: none;
@@ -139,7 +143,7 @@ a {
     border: none;
     outline: none;
     padding: 10px 40px;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
     border-radius: 5px;
     text-decoration: none;
@@ -147,6 +151,10 @@ a {
 
 .main-section .offer-list .lists div {
     margin-top: 2rem;
+}
+
+.main-section .offer-list .lists h4 {
+    font-size: 1.4rem;
 }
 
 
@@ -213,6 +221,8 @@ footer .footer p {
         align-items: center;
         flex-direction: column;
     }
+
+
 
     .main-section .offer-list .lists hr {
         display: none;
