@@ -1,6 +1,6 @@
 /* BASE */
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700,800&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
 
 * {
     margin: 0;
@@ -85,13 +85,15 @@ a {
     transform: translate(-50%, -50%);
     position: absolute;
     left: 50%;
-    top: 34%;
+    top: 39%;
     border: none !important;
 
 }
 
 .item {
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: 'Playfair Display', serif;
+
     margin: 1rem;
     font-weight: 200;
     font-size: 1rem;
@@ -120,7 +122,7 @@ nav li {
 
 /* MAIN SECTION */
 .main-section {
-    padding-bottom: 8rem;
+    padding-bottom: 5rem;
     padding-top: 5rem;
 
 }
@@ -152,7 +154,8 @@ nav li {
     background-repeat: no-repeat;
     background-attachment: cover;
     padding: 0;
-    height: 31rem;
+    height: 29rem;
+    max-height: 31rem;
 
 
 
