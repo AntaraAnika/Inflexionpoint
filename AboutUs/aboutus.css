@@ -6,12 +6,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 0.1rem solid transparent;
+    /* border: 0.1rem solid transparent; */
 
 }
 
 body,
 input {
+    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Playfair Display', serif;
 
 }
@@ -28,7 +29,10 @@ a {
 
 .bg-image {
     background-image: url(../testImages/shapelined-90siM5kmRbM-unsplash.jpg);
-    position: relative;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: cover;
@@ -85,7 +89,7 @@ a {
     transform: translate(-50%, -50%);
     position: absolute;
     left: 50%;
-    top: 34%;
+    top: 45%;
     border: none !important;
 
 }
@@ -153,9 +157,6 @@ nav li {
     background-attachment: cover;
     padding: 0;
     height: 31rem;
-
-
-
 }
 
 /* IMAGE SLIDER */
@@ -184,6 +185,8 @@ nav li {
     align-items: center;
     padding: 4rem;
     background-color: rgba(23, 23, 23, 0.90);
+    height: 101%;
+    width: 101%;
 }
 
 .main-section .img-nd-description .middle-section .OEC {
@@ -204,20 +207,16 @@ nav li {
 
 /* FOOTER */
 footer {
-    bottom: -5px;
-    position: relative;
+    position: absolute;
+    z-index: 6;
+    bottom: 0;
+    background-color: #111111;
     width: 100%;
-}
-
-footer .footer {
-    background-color: black;
-
     text-align: center;
     padding: 1rem;
 }
 
-footer .footer p {
-    color: white;
+footer p {
     margin: 0;
 }
 
